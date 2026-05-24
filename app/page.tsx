@@ -483,6 +483,97 @@ const vulgarScenes: Record<Weapon["family"], string[]> = {
   ]
 };
 
+const genderedVulgarScenes: Partial<Record<Gender, Partial<Record<Weapon["family"], string[]>>>> = {
+  woman: {
+    blade: [
+      "The {weapon} cuts across her painted mouth and cheek, splitting her face into a red ruin; teeth, spit, and blood spill down her chin before she hits the ground.",
+      "The {weapon} opens her from ribs to belly; her hair whips forward into the blood spray as hot guts slide out over her belt.",
+      "The {weapon} takes her throat in a brutal line; her scream breaks into a wet hiss while blood pours down her front.",
+      "The {weapon} splits her skull beneath the hairline; one eye goes glassy, the other fills with blood as she drops.",
+      "The {weapon} slashes through her thigh and deep into the artery; she goes down hard, kicking in the dirt while blood soaks both legs."
+    ],
+    axe: [
+      "The {weapon} bites through her collar and shoulder; bone cracks under the blade and her hair sticks to the gore pouring down her chest.",
+      "The {weapon} splits her head at the temple; blood mats her hair instantly and brain matter spatters the killer's hands.",
+      "The {weapon} chops into her ribs and wrenches free with a wet pull, dragging meat and cloth with it.",
+      "The {weapon} hooks her under the jaw and tears upward; her mouth comes apart in a spray of teeth and blood.",
+      "The {weapon} cleaves through her hip; she folds sideways and hits the ground with a filthy, broken scream."
+    ],
+    pierce: [
+      "The {weapon} punches through her eye and out the back of her skull; blood runs through her lashes while her body goes slack.",
+      "The {weapon} slides under her ribs and twists; her breath turns to red foam before she collapses onto the blade.",
+      "The {weapon} stabs through her throat; she claws at the shaft, choking as blood bubbles over her fingers.",
+      "The {weapon} drives into her belly and comes back fouled with bile and shit; she doubles over, gagging blood onto the floor.",
+      "The {weapon} pierces beneath her jaw and drives up into the skull; her knees buckle before the killer rips it free."
+    ],
+    blunt: [
+      "The {weapon} caves in her face; her nose and teeth collapse inward and blood sprays from the ruin of her mouth.",
+      "The {weapon} smashes her temple with a wet crack; hair, blood, and bone fragments slap across the killer's arm.",
+      "The {weapon} crushes her ribs flat; she folds around the impact, coughing blood down her front.",
+      "The {weapon} breaks her jaw loose; it hangs crooked while she chokes on spit and blood.",
+      "The {weapon} drives her into the floor hard enough to crack bone; she lands on her ass, twitching in a spreading pool."
+    ],
+    ranged: [
+      "The {weapon} punches through her eye socket; blood and jelly track down her cheek before she falls backward.",
+      "The {weapon} tears through her throat and exits in a red spray; she clutches the hole until her hands go slack.",
+      "The {weapon} buries itself in her lung; her next breath is a bubbling mess of blood and panic.",
+      "The {weapon} hits her belly and pins torn intestine inside; she folds over it, gagging on the stink of opened gut.",
+      "The {weapon} cracks through her cheekbone and sends teeth across the floor."
+    ],
+    arcane: [
+      "The {weapon} boils the blood in her face; her eyes burst, her hair smokes, and she drops screaming through a mouth full of steam.",
+      "The {weapon} detonates inside her chest; ribs flare outward and cooked lung matter spatters the ground.",
+      "The {weapon} cooks her belly until it splits; bile and shit-stained steam roll out with the blood.",
+      "The {weapon} burns through her throat; the scream dies as smoke and blood pour from her mouth.",
+      "The {weapon} chars her face down to bone; teeth crack in the heat and her eyes run down her cheeks."
+    ]
+  },
+  man: {
+    blade: [
+      "The {weapon} carves through his beard and jaw, opening his mouth sideways; teeth and blood spill down his chest as he drops.",
+      "The {weapon} opens his gut from belt to sternum; his hands go to the wound, but only come away full of slippery intestine.",
+      "The {weapon} cuts his throat so deep his last curse sprays out in red mist.",
+      "The {weapon} splits his skull above the brow; his eyes roll back while brain matter leaks into his beard.",
+      "The {weapon} slashes through his thigh; blood pumps over his boot while he falls flat on his ass."
+    ],
+    axe: [
+      "The {weapon} crashes into his bearded jaw and tears half of it loose; blood, teeth, and tongue hit the floor together.",
+      "The {weapon} splits his skull down through the brow; his beard catches the blood as his face caves open.",
+      "The {weapon} chops into his chest with a butcher's crack; ribs spring apart and his lungs sag into the gap.",
+      "The {weapon} buries in his shoulder and rips free, dragging meat and mail in one filthy strip.",
+      "The {weapon} splits his pelvis; he drops instantly, leaking blood and piss into the dirt."
+    ],
+    pierce: [
+      "The {weapon} drives through his eye and out the back of his skull; he stiffens, then drops with blood pouring into his beard.",
+      "The {weapon} slips between his ribs and twists in the heart; his final breath erupts as a thick red cough.",
+      "The {weapon} punches through his throat and pins the curse in place.",
+      "The {weapon} enters low in his belly and comes out slick with shit and blood; he folds over it, gagging.",
+      "The {weapon} thrusts up beneath his jaw into the skull; his knees buckle before the killer yanks it free."
+    ],
+    blunt: [
+      "The {weapon} caves his face inward; beard, teeth, and blood mash together under the blow.",
+      "The {weapon} smashes his temple flat; bone chips and brain matter spray across the killer's armor.",
+      "The {weapon} drives his sternum into his organs; he coughs blood hard enough to paint his beard red.",
+      "The {weapon} breaks his jaw loose and sends him sprawling on his ass, choking on broken teeth.",
+      "The {weapon} crushes his pelvis with a deep crack; he drops hard, pissing blood into the dirt."
+    ],
+    ranged: [
+      "The {weapon} punches through his eye socket and rattles inside the skull; blood runs into his beard as he falls.",
+      "The {weapon} tears through his throat; he clutches the hole while blood bubbles between his fingers.",
+      "The {weapon} buries itself in his lung; his next breath is pink foam and a wet, useless wheeze.",
+      "The {weapon} hits his gut and pins a loop of intestine against the spine.",
+      "The {weapon} cracks through his cheekbone and exits with teeth behind it."
+    ],
+    arcane: [
+      "The {weapon} boils his eyes until they burst; blood and fluid run into his beard while smoke pours from his mouth.",
+      "The {weapon} detonates in his chest; ribs flare outward and cooked lung matter sprays free.",
+      "The {weapon} cooks his belly until it splits, dumping blood, bile, and shit-stained steam.",
+      "The {weapon} burns through his throat; his curse turns into smoke and red foam.",
+      "The {weapon} chars his jaw and beard into a blackened mess before his body drops."
+    ]
+  }
+};
+
 const vulgarAftermath: Record<Intensity, string[]> = {
   brutal: [
     "The killer is left spattered from wrist to chest, breathing through the stink of blood and opened organs.",
@@ -518,7 +609,9 @@ function generateDeathBlow(weapon: Weapon, gender: Gender, intensity: Intensity,
   const detail = pick(part.details[weapon.family]);
 
   if (tone === "vulgar") {
-    const scene = pick(vulgarScenes[weapon.family]).replace("{weapon}", weapon.name.toLowerCase());
+    const genderScenes = genderedVulgarScenes[gender]?.[weapon.family] ?? [];
+    const scenePool = genderScenes.length > 0 && Math.random() < 0.75 ? genderScenes : vulgarScenes[weapon.family];
+    const scene = pick(scenePool).replace("{weapon}", weapon.name.toLowerCase());
     const closer = pick(vulgarAftermath[intensity]);
 
     return [scene, closer].join(" ");
