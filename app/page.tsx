@@ -487,13 +487,13 @@ const genderedVulgarScenes: Partial<Record<Gender, Partial<Record<Weapon["family
   woman: {
     blade: [
       "The {weapon} cuts across her mouth and cheek, splitting her face into a red ruin; teeth, spit, and blood spill down her chin before she hits the ground.",
-      "The {weapon} opens her from ribs to belly; her hair whips forward into the blood spray as hot guts slide out over her belt.",
-      "The {weapon} takes her throat in a brutal line; her scream breaks into a wet hiss while blood pours down her front.",
+      "The {weapon} opens her from ribs to belly; her hair whips forward into the blood spray as shit-stained guts slide out over her belt.",
+      "The {weapon} takes her throat in a brutal line; her scream breaks into a blood-gurgling hiss while blood pours down her front.",
       "The {weapon} splits her skull beneath the hairline; one eye goes glassy, the other fills with blood as she drops.",
       "The {weapon} slashes through her thigh and deep into the artery; she goes down hard, kicking in the dirt while blood soaks both legs.",
       "The {weapon} opens her scalp and sends a sheet of blood through her hair before the blade bites bone.",
       "The {weapon} tears across her ribs and breastbone, cracking the cage open enough for hot blood to pour through.",
-      "The {weapon} cuts into her belly below the ribs; she doubles over as bile and blood spill over her hands.",
+      "The {weapon} cuts into her belly below the ribs; she doubles over as bile, blood, and hot shit spill over her hands.",
       "The {weapon} takes her fingers first, then the wrist, leaving her hand twitching in a red slap on the floor.",
       "The {weapon} drives through her side and rips out; cloth, meat, and a dark rope of intestine follow the edge."
     ],
@@ -502,23 +502,23 @@ const genderedVulgarScenes: Partial<Record<Gender, Partial<Record<Weapon["family
       "The {weapon} splits her head at the temple; blood mats her hair instantly and brain matter spatters the killer's hands.",
       "The {weapon} chops into her ribs and wrenches free with a wet pull, dragging meat and cloth with it.",
       "The {weapon} hooks her under the jaw and tears upward; her mouth comes apart in a spray of teeth and blood.",
-      "The {weapon} cleaves through her hip; she folds sideways and hits the ground with a filthy, broken scream.",
+      "The {weapon} cleaves through her hip; she folds sideways and hits the ground in a piss-soaked, broken scream.",
       "The {weapon} buries in her sternum and cracks her chest open; blood wells up through the split as her knees go.",
       "The {weapon} takes her forearm below the elbow and keeps moving into the ribs behind it.",
       "The {weapon} chops through her spine from behind; she drops limp, hair dragging through the blood under her.",
       "The {weapon} splits her shoulder open and leaves the arm hanging by meat and cloth.",
-      "The {weapon} bites into her belly and hip together, dumping gore down her legs as she folds."
+      "The {weapon} bites into her belly and hip together, dumping gore and shit-stained viscera down her legs as she folds."
     ],
     pierce: [
       "The {weapon} punches through her eye and out the back of her skull; blood runs through her lashes while her body goes slack.",
       "The {weapon} slides under her ribs and twists; her breath turns to red foam before she collapses onto the blade.",
-      "The {weapon} stabs through her throat; she claws at the shaft, choking as blood bubbles over her fingers.",
+      "The {weapon} stabs through her throat; she claws at the shaft, choking as blood gurgles over her fingers.",
       "The {weapon} drives into her belly and comes back fouled with bile and shit; she doubles over, gagging blood onto the floor.",
       "The {weapon} pierces beneath her jaw and drives up into the skull; her knees buckle before the killer rips it free.",
       "The {weapon} slips between her ribs and punctures a lung; she tries to breathe and only spits pink foam.",
       "The {weapon} drives through her lower back and out beneath the ribs, slick with kidney blood.",
       "The {weapon} pins her shoulder, then tears free in a hot spray that paints her hair and neck.",
-      "The {weapon} punches into her stomach and twists until her legs give out.",
+      "The {weapon} punches into her stomach and twists until her legs give out and piss runs down her boot.",
       "The {weapon} skewers her through the mouth, cracking teeth against steel before bursting out below the ear."
     ],
     blunt: [
@@ -526,24 +526,24 @@ const genderedVulgarScenes: Partial<Record<Gender, Partial<Record<Weapon["family
       "The {weapon} smashes her temple with a wet crack; hair, blood, and bone fragments slap across the killer's arm.",
       "The {weapon} crushes her ribs flat; she folds around the impact, coughing blood down her front.",
       "The {weapon} breaks her jaw loose; it hangs crooked while she chokes on spit and blood.",
-      "The {weapon} drives her into the floor hard enough to crack bone; she lands on her ass, twitching in a spreading pool.",
+      "The {weapon} drives her into the floor hard enough to crack bone; she lands on her ass, twitching in a piss-soaked pool.",
       "The {weapon} hammers her shoulder into a pulp of bone, mail, and torn muscle.",
       "The {weapon} crushes her knee sideways; she drops screaming, then eats the next blow in the teeth.",
       "The {weapon} smashes her collarbone so hard the broken ends tent the skin.",
       "The {weapon} catches her under the chin and snaps her head back with a spray of blood.",
-      "The {weapon} drives into her belly and folds her in half, forcing blood and bile from her mouth."
+      "The {weapon} drives into her belly and folds her in half, forcing blood, bile, and a wet gurgle from her mouth."
     ],
     ranged: [
       "The {weapon} punches through her eye socket; blood and jelly track down her cheek before she falls backward.",
       "The {weapon} tears through her throat and exits in a red spray; she clutches the hole until her hands go slack.",
-      "The {weapon} buries itself in her lung; her next breath is a bubbling mess of blood and panic.",
-      "The {weapon} hits her belly and pins torn intestine inside; she folds over it, gagging on the stink of opened gut.",
+      "The {weapon} buries itself in her lung; her next breath is a blood-gurgling mess of foam and panic.",
+      "The {weapon} hits her belly and pins torn intestine inside; she folds over it, gagging on the shit stink of opened gut.",
       "The {weapon} cracks through her cheekbone and sends teeth across the floor.",
       "The {weapon} hits her thigh artery; blood pulses down her leg before she drops.",
       "The {weapon} punches through her shoulder and spins her into the dirt.",
       "The {weapon} enters beneath her chin and snaps her head back hard enough to spray blood from her mouth.",
       "The {weapon} pins her hand to her ribs and punches through into the lung behind it.",
-      "The {weapon} hits low in the gut and leaves her folded around the shaft, retching blood."
+      "The {weapon} hits low in the gut and leaves her folded around the shaft, retching blood and bile."
     ],
     arcane: [
       "The {weapon} boils the blood in her face; her eyes burst, her hair smokes, and she drops screaming through a mouth full of steam.",
@@ -554,28 +554,28 @@ const genderedVulgarScenes: Partial<Record<Gender, Partial<Record<Weapon["family
       "The {weapon} turns the blood under her skin black before it bursts from her nose and mouth.",
       "The {weapon} ignites her hair and cooks the scalp beneath it until the skull shows.",
       "The {weapon} flashes through her ribs and leaves the chest cavity smoking.",
-      "The {weapon} ruptures her stomach from the inside; bile and blood splash over the ground.",
+      "The {weapon} ruptures her stomach from the inside; bile, blood, and shit-slick fluid splash over the ground.",
       "The {weapon} burns the tendons in her legs until she folds into the gore beneath her."
     ]
   },
   man: {
     blade: [
       "The {weapon} carves through his beard and jaw, opening his mouth sideways; teeth and blood spill down his chest as he drops.",
-      "The {weapon} opens his gut from belt to sternum; his hands go to the wound, but only come away full of slippery intestine.",
-      "The {weapon} cuts his throat so deep his last curse sprays out in red mist.",
+      "The {weapon} opens his gut from belt to sternum; his hands go to the wound, but only come away full of shit-stained intestine.",
+      "The {weapon} cuts his throat so deep his last curse turns into a blood-gurgling spray.",
       "The {weapon} splits his skull above the brow; his eyes roll back while brain matter leaks into his beard.",
-      "The {weapon} slashes through his thigh; blood pumps over his boot while he falls flat on his ass."
+      "The {weapon} slashes through his thigh; blood pumps over his boot while he falls flat on his ass in the piss under him."
     ],
     axe: [
       "The {weapon} crashes into his bearded jaw and tears half of it loose; blood, teeth, and tongue hit the floor together.",
       "The {weapon} splits his skull down through the brow; his beard catches the blood as his face caves open.",
-      "The {weapon} chops into his chest with a butcher's crack; ribs spring apart and his lungs sag into the gap.",
+      "The {weapon} chops into his chest with a butcher's crack; ribs spring apart and his lungs sag into the blood-gurgling gap.",
       "The {weapon} buries in his shoulder and rips free, dragging meat and mail in one filthy strip.",
       "The {weapon} splits his pelvis; he drops instantly, leaking blood and piss into the dirt."
     ],
     pierce: [
       "The {weapon} drives through his eye and out the back of his skull; he stiffens, then drops with blood pouring into his beard.",
-      "The {weapon} slips between his ribs and twists in the heart; his final breath erupts as a thick red cough.",
+      "The {weapon} slips between his ribs and twists in the heart; his final breath erupts as a thick, blood-gurgling cough.",
       "The {weapon} punches through his throat and pins the curse in place.",
       "The {weapon} enters low in his belly and comes out slick with shit and blood; he folds over it, gagging.",
       "The {weapon} thrusts up beneath his jaw into the skull; his knees buckle before the killer yanks it free."
@@ -584,21 +584,21 @@ const genderedVulgarScenes: Partial<Record<Gender, Partial<Record<Weapon["family
       "The {weapon} caves his face inward; beard, teeth, and blood mash together under the blow.",
       "The {weapon} smashes his temple flat; bone chips and brain matter spray across the killer's armor.",
       "The {weapon} drives his sternum into his organs; he coughs blood hard enough to paint his beard red.",
-      "The {weapon} breaks his jaw loose and sends him sprawling on his ass, choking on broken teeth.",
+      "The {weapon} breaks his jaw loose and sends him sprawling on his ass, choking on broken teeth and blood.",
       "The {weapon} crushes his pelvis with a deep crack; he drops hard, pissing blood into the dirt."
     ],
     ranged: [
       "The {weapon} punches through his eye socket and rattles inside the skull; blood runs into his beard as he falls.",
       "The {weapon} tears through his throat; he clutches the hole while blood bubbles between his fingers.",
-      "The {weapon} buries itself in his lung; his next breath is pink foam and a wet, useless wheeze.",
-      "The {weapon} hits his gut and pins a loop of intestine against the spine.",
+      "The {weapon} buries itself in his lung; his next breath is pink foam and a blood-gurgling wheeze.",
+      "The {weapon} hits his gut and pins a shit-stained loop of intestine against the spine.",
       "The {weapon} cracks through his cheekbone and exits with teeth behind it."
     ],
     arcane: [
       "The {weapon} boils his eyes until they burst; blood and fluid run into his beard while smoke pours from his mouth.",
       "The {weapon} detonates in his chest; ribs flare outward and cooked lung matter sprays free.",
       "The {weapon} cooks his belly until it splits, dumping blood, bile, and shit-stained steam.",
-      "The {weapon} burns through his throat; his curse turns into smoke and red foam.",
+      "The {weapon} burns through his throat; his curse turns into smoke, red foam, and a wet gurgle.",
       "The {weapon} chars his jaw and beard into a blackened mess before his body drops."
     ]
   }
@@ -609,19 +609,28 @@ const vulgarAftermath: Record<Intensity, string[]> = {
     "The killer is left spattered from wrist to chest, breathing through the stink of blood and opened organs.",
     "A dark pool spreads under the corpse, thick with clots and bits of meat.",
     "The body gives one last twitch and leaks quietly into the dirt.",
-    "The smell hits immediately: copper, piss, and hot viscera."
+    "The smell hits immediately: copper, piss, and hot viscera.",
+    "Blood gurgles out of the wound in thick, nasty pulls.",
+    "The corpse lands in a piss-soaked sprawl, shit and blood leaking into the dirt.",
+    "A final wet cough spits blood across the killer's boots."
   ],
   grisly: [
     "Blood patters off armor and onto the floor while the corpse empties itself in ugly little pulses.",
     "Anyone close enough gets flecked with gore, spit, and the warm spray of arterial blood.",
     "The body keeps draining after death, turning the ground slick and black-red.",
-    "The corpse spasms once, forcing more blood and bile out through the wound."
+    "The corpse spasms once, forcing more blood and bile out through the wound.",
+    "The stink of shit-stained guts rolls out with every blood-gurgling twitch.",
+    "Piss runs under the body, mixing with clotted blood and torn meat.",
+    "The wound keeps making a low, wet gurgle long after the scream stops."
   ],
   legendary: [
     "For a moment the battlefield is silent except for dripping blood and the wet slide of ruined anatomy settling into place.",
     "The kill leaves a fan of gore across the scene, as if the body burst open just to mark the killer's work.",
     "What remains is barely a corpse: split meat, exposed bone, and enough filth to make hardened soldiers gag.",
-    "The attacker stands in the mess, painted with blood, bile, and brain matter."
+    "The attacker stands in the mess, painted with blood, bile, and brain matter.",
+    "The whole scene reeks of piss, shit-stained entrails, and hot blood.",
+    "Blood gurgles through the ruin while the corpse empties itself in one last filthy spill.",
+    "What is left is a shit-smeared pile of split meat, piss-soaked cloth, and exposed bone."
   ]
 };
 
