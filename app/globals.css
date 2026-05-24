@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #f3ead7;
+  background: #171514;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(23, 21, 20, 0.82), rgba(23, 21, 20, 0.92)),
+    url("https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?auto=format&fit=crop&w=1800&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.quest-panel {
+  @apply rounded-lg border-2 border-ink/10 bg-white/90 shadow-quest;
+}
+
+.death-panel {
+  @apply rounded-md border border-bone/15 bg-night/80 shadow-quest backdrop-blur;
+}
+
+.control {
+  @apply w-full rounded-md border border-bone/15 bg-black/35 px-3 py-3 font-bold text-bone outline-none transition focus:border-rust;
+}
+
+.segmented {
+  @apply rounded-md border border-bone/15 bg-black/30 px-2 py-2 text-xs font-black uppercase text-bone/75 transition hover:border-rust hover:text-bone;
+}
+
+.segmented-active {
+  @apply border-rust bg-rust text-night;
+}
+
+.roll-button {
+  @apply rounded-md bg-blood px-5 py-4 text-base font-black uppercase tracking-normal text-bone shadow-quest transition hover:bg-rust hover:text-night;
+}
